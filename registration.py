@@ -18,7 +18,7 @@ class registration_process:
 		self.browser_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 		self.browser = webdriver.Chrome(options=self.browser_options)
 		self.browser.set_window_size(100,550)
-		self.browser.get('https://windscribe.com/signup')
+		self.browser.get('https://windscribe.com/yo/tri3myl1')
 		self.inputOutput = io.BytesIO()
 		self.bSubmit = self.browser.find_element(By.XPATH,'//*[@id="signup_button"]')
 		
